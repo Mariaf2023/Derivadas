@@ -1,0 +1,81 @@
+* {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+
+/*Estilo de encabezado*/
+header {
+    background-image: url(img/Encabezado.png);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/*Tamaño barra Inicio, Formulas, Ejemplos...*/
+nav {
+    background-color: #555;
+    padding: 0.6em;
+    text-align: center;
+}
+
+/*Estilo de texto que se encuentra en la barra*/
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    cursor: pointer;
+}
+
+/*Dimension entre barra y texto*/
+section {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    flex: 1;
+    margin: 20px;
+    padding: 25px;
+    display: none;
+    /* Ocultar todos los artículos inicialmente */
+}
+
+/* Estilos para centrar la introducción */
+
+.derivada{
+    width: 300px;
+}
+
+#deri{
+    text-align: 70px; /* Alinea el texto a la izquierda */
+}
+
+.imagen1{
+    width: 0px; 
+    height: 0px; 
+}
+
+#imagen{
+    position: absolute;
+    margin-left: 40%;
+    border: 2px solid #20364e;
+}
+
+/*Estilo de pie de pagina*/
+footer {
+    text-align: center;
+    padding: 0px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
